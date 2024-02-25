@@ -1,5 +1,4 @@
-/*
-* {
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,44 +11,24 @@
     --textColor: #eee;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
+.bg-body-tertiary {
     padding: 0 2rem;
-    background-color: var(--mainColor);
-    color: var(--textColor);
 }
 
-nav a {
+.nav-link{
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
 }
 
-nav a:hover {
-    color: var(--secondaryColor);
-}
-
-header .nav-btn {
-    background-color: darkred;
-    padding: 5px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    color: var(--textColor);
-    visibility: hidden;
-    opacity: 0;
-    font-size: 1.8rem;
-}
 
 header div, nav {
     display: flex;
     opacity: 1;
 }
 
-@media only screen and (max-width: 1024px) {
+
+/*@media only screen and (max-width: 1024px) {
     header.nav-btn {
         visibility: visible;
         opacity: 1;
@@ -82,7 +61,7 @@ header div, nav {
     }
 
     nav a {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
 }*/
