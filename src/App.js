@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css';
-import { Routes, Route } from "react-router-dom"
-import Home from "./componant/Pages/Home";
-import Product from "./componant/Pages/Product";
-import Contact from "./componant/Pages/Contact";
-import Navigation from "./componant/Navbar/Navigation";
+import {Routes, Route} from "react-router-dom"
+import Home from "./components/Pages/Home";
+import Product from "./components/Pages/Product";
+import Contact from "./components/Pages/Contact";
+import Navigation from "./components/Navbar/Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 
 /* Multi language */
 import i18next from "i18next";
@@ -36,9 +37,7 @@ i18next
             loadPath: '/assets/locales/{{lng}}/translation.json',
         },
     })
-
 /* Multi language */
-
 
 function App() {
     return (
