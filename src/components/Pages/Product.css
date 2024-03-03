@@ -1,0 +1,22 @@
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 60px;
+    padding: 60px;
+}
+
+.Product-section{
+    margin: 60px;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.card-text{
+    flex-grow:1;
+}
