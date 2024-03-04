@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "./Footer";
 
 const Home = () => {
     return (
@@ -6,7 +7,9 @@ const Home = () => {
             <div>
                 <h1 style={{textAlign:"center"}}>Hello welcome to kral tutun</h1>
             </div>
-
+            <div>
+                <Footer/>
+            </div>
         </>
     )
 }

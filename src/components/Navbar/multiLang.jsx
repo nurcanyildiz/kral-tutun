@@ -33,7 +33,7 @@ const languages = [
 function MultiLang() {
     const currentLanguageCode = cookies.get("i18next") || "en";
     const currentLanguage = languages.find((l) => l.code === currentLanguageCode);
-    let location = useLocation();
+    //let location = useLocation();
     //const {t} = useTranslation()
 
     const refreshPage = () => {
